@@ -3,13 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
     <style>
         .success, .error {
             color: white;
             padding: 5px;
             margin: 5px 0 15px 0;
+        }
+        h3{
+            color:rgb(221, 117, 136);
+            background-color:rgb(9, 12, 97);
+            
+        }
+        label{
+            color:red;
+        }
+
+        body{
+            background-color: rgb(234, 238, 206);
+        }
+        input{
+            color:red;
+            background-color:blue;
         }
 
         .success {
@@ -43,13 +59,13 @@
                 <input type="submit" value="Submit" class="u-full-width">
             </div>
         </form>
-        <table class="u-full-width">
-            <thead>
+        <table class="u-full-width" border=3>
+            <thead border=3>
                 <tr>
                     <th>Title</th>
                     <th>Author</th>
                     <th>ISBN</th>
-                    <th></th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody id="book-list">
