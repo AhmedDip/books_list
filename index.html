@@ -12,20 +12,28 @@
             margin: 5px 0 15px 0;
         }
         h3{
-            color:rgb(221, 117, 136);
+            color:rgb(255, 136, 158);
             background-color:rgb(9, 12, 97);
-            
+        }
+        #tab,th{
+            background-color:rgb(242, 236, 237);
+           color:rgb(255, 45, 8);
+           font-weight: 900;
         }
         label{
             color:red;
+        }
+        #sub{
+            color:rgb(255, 136, 158);
+            background-color:rgb(9, 12, 97);
+            font-size: large;
         }
 
         body{
             background-color: rgb(234, 238, 206);
         }
         input{
-            color:red;
-            background-color:blue;
+           font-weight: 700;
         }
 
         .success {
@@ -56,11 +64,11 @@
                 <input type="text" id="isbn" class="u-full-width">
             </div>
             <div>
-                <input type="submit" value="Submit" class="u-full-width">
+                <input id="sub" type="submit" value="Submit" class="u-full-width">
             </div>
         </form>
-        <table class="u-full-width" border=3>
-            <thead border=3>
+        <table id="tab" class="u-full-width" >
+            <thead>
                 <tr>
                     <th>Title</th>
                     <th>Author</th>
